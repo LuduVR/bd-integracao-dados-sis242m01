@@ -4,14 +4,11 @@
 **Trabalho:** individual ou em dupla (à escolha do aluno)  
 **Prazo de entrega:** 24/11/2026
 
-## Equipe
-
-**Nome da dupla:** ____________________ (deixe em branco se for individual)
+## Aluno
 
 | Nome | Matrícula | Usuário do GitHub |
 | --- | --- | --- |
-|  |  |  |
-|  |  |  |
+| Lucca Eduardo | 2529098 | LuduVR |
 
 ## O cenário
 
