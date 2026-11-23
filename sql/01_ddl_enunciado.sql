@@ -1,6 +1,7 @@
 -- DDL exatamente como veio no enunciado do cliente.
 -- Rode, veja os erros e crie as suas versões corrigidas:
 --   sql/01_ddl_postgres.sql e sql/01_ddl_mysql.sql
+-- Lucca Eduardo
 
 CREATE TABLE public.venda (
  venda_id int8 NOT NULL,
@@ -30,7 +31,3 @@ CREATE TABLE public.produtos_filial (
  estoque float8 DEFAULT 0 NOT NULL, preco_unitario float8 DEFAULT '0' NOT NULL,
  preco_compra float8 DEFAULT '0' NOT NULL, preco_venda float8 DEFAULT '0' NOT NULL,
  idfonecedor int4 NULL
- CONSTRAINT produtos_filial_pkey PRIMARY KEY (filial_id, idproduto));
-CREATE TABLE public.fornecedor (
- idforncedor varchar(25) NOT NULL, razao_social varchar(255) NOT NULL,
- CONSTRAINT fornecedor_pkey PRIMARY KEY (idforncedor, idproduto));
